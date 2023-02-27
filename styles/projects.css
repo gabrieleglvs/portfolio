@@ -1,0 +1,35 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.projets-titulo {
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.projects-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-img img {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.projects-img a {
+    color: var(--cor-terciaria);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+}

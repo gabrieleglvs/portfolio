@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Josefin+Sans:wght@400;700&display=swap');
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/about.css");
+@import url("styles/tech.css");
+@import url("styles/projects.css");
+@import url("styles/footer.css");
+
+:root {
+    --cor-de-fundo: #f5f5f5;
+    --cor-primaria: #5d3891;
+    --cor-secundaria: #f99417;
+    --cor-terciaria: #26272c;
+    --cor-da-fonte: #f5f5f5;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 300;
+}

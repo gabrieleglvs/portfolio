@@ -1,0 +1,29 @@
+footer {
+    color: var(--cor-da-fonte);
+    background-color: var(--cor-terciaria);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+.footer-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-email img {
+    width: 5%;
+    padding-right: 0.5rem;
+}
+
+.footer-email p {
+    font-weight: 300;
+}
