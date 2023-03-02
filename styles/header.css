@@ -58,12 +58,18 @@
     color: var(--cor-secundaria);
 }
 
+.cabecalho-menu-web {
+    display: none;
+    
+}
+
 @media screen and (min-width: 1440px) {
     .cabecalho-menu {
         display: none;
     }
 
     .cabecalho-menu-web {
+        display: block;
         padding: 2rem;
 
     }
