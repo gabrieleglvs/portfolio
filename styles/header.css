@@ -57,3 +57,27 @@
     font-weight: 700;
     color: var(--cor-secundaria);
 }
+
+@media screen and (min-width: 1440px) {
+    .cabecalho-menu {
+        display: none;
+    }
+
+    .cabecalho-menu-web {
+        padding: 2rem;
+
+    }
+
+    .nav-lista-web {
+        display: flex;
+        justify-content: center;
+        gap: 3.5rem;
+    }
+
+    .nav-item-web a {
+        color: var(--cor-da-fonte);
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
