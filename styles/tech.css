@@ -15,7 +15,39 @@
     font-weight: 700;
 }
 
+.tech-icones-web {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .tech-icones-linguagens, .tech-icones-ferramentas {
     display: flex;
     gap: 1.5rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .tech {
+        padding: 4rem 5rem 4rem 5rem;
+    }
+
+    .tech-titulo {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .tech-icones-web {
+        display: flex;
+        flex-direction: row;
+        gap: 3.5rem;
+        justify-content: center;
+    }
+
+    .tech-icones-linguagens, .tech-icones-ferramentas {
+        gap: 3.5rem;
+    }
+
+    .tech-icones-linguagens img, .tech-icones-ferramentas img {
+        width: 5rem;        
+    }
 }
