@@ -59,3 +59,56 @@
 .sobre-aberto {
     display: block;
 }
+
+.sobre-mim-web, .sobre-educacao-web {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+
+    .sobre-mim, .sobre-educacao {
+        display: none;
+    }
+
+    .about {
+        padding: 5rem;
+    }
+
+    .sobre-mim-web, .sobre-educacao-web {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-mim-titulo-web, .sobre-educacao-titulo-web {
+        color: var(--cor-da-fonte);
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .sobre-mim-texto-web, .sobre-educacao-texto-web {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        color: var(--cor-da-fonte);
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .sobre-mim-texto-web a {
+        color: var(--cor-secundaria);
+        text-decoration: none;
+    }
+
+    .sobre-educacao-texto-web h3 {
+        color: var(--cor-secundaria);
+        font-weight: 700;
+        margin-bottom: 0.2rem;
+    }
+
+    .sobre-educacao-texto-web h4 {
+        font-weight: 600;
+        margin-bottom: 0.2rem;
+    }
+}
