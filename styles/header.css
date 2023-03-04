@@ -28,32 +28,48 @@ html {
 
 .cabecalho-menu-fechado {
     display: none;
-    height: 26vh;
-    background-color: #d9d9d9;
+    height: 100vh;
+    background-color: #000000ce;
+    backdrop-filter: blur(5px);
+    position: absolute;
     padding: 1rem;
+    left: 0;
+    right: 0;
 }
 
 .cabecalho-menu-aberto {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-nav {
+    padding-bottom: 20vh;
 }
 
 .nav-lista {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 
 .nav-item {
     width: 100%;
     padding: 1.2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
 }
 
 .nav-item a {
-    color: var(--cor-terciaria);
+    color: var(--cor-da-fonte);
     text-decoration: none;
+}
+
+.nav-item a:hover {
+    font-size: 2rem;
+    color: var(--cor-secundaria);
 }
 
 .nav-item a:active {
@@ -69,7 +85,7 @@ html {
 
 @media screen and (min-width: 1440px) {
 
-    .cabecalho-menu {
+    .cabecalho-menu, .cabecalho-menu-fechado {
         display: none;
     }
 
