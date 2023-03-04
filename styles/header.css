@@ -3,9 +3,17 @@ html {
 }
 
 .cabecalho {
+    box-sizing: border-box;
     background-color: var(--cor-primaria);
     position: fixed;
     width: 100vw;
+}
+
+.cabecalho-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
 }
 
 .cabecalho-titulo a {
@@ -14,23 +22,13 @@ html {
     font-weight: 700;
 }
 
-.cabecalho-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-}
-
-.cabecalho-menu-botoes {
-    display: flex;
-}
-
-.cabecalho-menu-img, img {
-    width: 50px;
+#menu-botao {
+    width: 50%;
 }
 
 .cabecalho-menu-fechado {
     display: none;
+    height: 26vh;
     background-color: #d9d9d9;
     padding: 1rem;
 }
