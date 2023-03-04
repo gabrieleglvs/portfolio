@@ -1,3 +1,6 @@
+.banner {
+}
+
 .banner-apresentacao {
     box-sizing: border-box;
     display: flex;
@@ -18,6 +21,10 @@
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+}
+
+.banner-titulo p {
+    font-size: 1rem;
 }
 
 #subtitulo {
