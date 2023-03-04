@@ -1,5 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .cabecalho {
     background-color: var(--cor-primaria);
+    position: fixed;
+    width: 100vw;
 }
 
 .cabecalho-titulo a {
@@ -64,6 +70,7 @@
 }
 
 @media screen and (min-width: 1440px) {
+
     .cabecalho-menu {
         display: none;
     }
@@ -83,7 +90,15 @@
     .nav-item-web a {
         color: var(--cor-da-fonte);
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: 500;
+    }
+
+    .nav-item-web a:hover {
+        color: var(--cor-secundaria);
+    }
+
+    .nav-item-web a:active {
+        color: var(--cor-secundaria);
     }
 }

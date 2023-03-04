@@ -72,7 +72,7 @@
     }
 
     .about {
-        padding: 5rem;
+        padding: 6rem 5rem 6rem 5rem;
     }
 
     .sobre-mim-web, .sobre-educacao-web {
@@ -84,7 +84,7 @@
         color: var(--cor-da-fonte);
         font-size: 3rem;
         font-weight: 700;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     .sobre-mim-texto-web, .sobre-educacao-texto-web {
