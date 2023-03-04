@@ -14,6 +14,12 @@
     font-weight: 700;
 }
 
+.projects-img-web {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .projects-img {
     display: flex;
     flex-direction: column;
@@ -21,8 +27,6 @@
 }
 
 .projects-img img {
-    display: flex;
-    flex-direction: column;
     width: 85%;
 }
 
@@ -32,4 +36,24 @@
     font-weight: 700;
     margin-top: 1rem;
     margin-bottom: 0.6rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .projects {
+        padding: 4rem 5rem 4rem 5rem;
+    }
+
+    .projets-titulo {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .projects-img-web {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    #img-em-breve {
+        width: 52%;
+    }
 }
