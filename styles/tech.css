@@ -22,8 +22,14 @@
     gap: 2rem;
 }
 
+.tech-icones-web img {
+    width: 20%;
+}
+
 .tech-icones-linguagens, .tech-icones-ferramentas {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1.5rem;
 }
 
