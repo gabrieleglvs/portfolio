@@ -6,6 +6,19 @@ menuEl.addEventListener("click", () => {
     menuAbertoDivEl.classList.toggle("cabecalho-menu-aberto")
 });
 
+//Links da navegação
+const linkHomeEl = document.querySelector("#link-home")
+const linkSobreEl = document.querySelector("#link-sobre")
+const linkTechEl = document.querySelector("#link-tech")
+const linkProjetosEl = document.querySelector("#link-projetos")
+
+const links = [linkHomeEl, linkSobreEl, linkTechEl, linkProjetosEl]
+links.forEach((a) => {
+    a.addEventListener("click", () => {
+        menuAbertoDivEl.classList.toggle("cabecalho-menu-aberto")
+    })
+})
+
 //Setas para baixo
 const setaSobreMimEl = document.querySelector("#sobre-mim-seta")
 const textoSobreMinEl = document.querySelector(".sobre-mim-texto")
