@@ -2,16 +2,25 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    gap: 2rem;
-    padding: 2rem;
+    align-items: center;
+    gap: 4rem;
+    padding: 6rem 2rem 6rem 2rem;
     background-color: var(--cor-terciaria);
+}
+
+#sobre-mim-seta {
+    width: 10%;
+}
+
+#sobre-educacao-seta {
+    width: 10%;
 }
 
 .sobre-mim-titulo {
     display: flex;
     align-items: center;
     color: var(--cor-da-fonte);
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     gap: 0.8rem;
 }
@@ -22,13 +31,20 @@
     display: none;
     padding-top: 1.5rem;    
     color: var(--cor-da-fonte);
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+.sobre-mim-texto a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
 }
 
 .sobre-educacao-titulo {
     display: flex;
     align-items: center;
     color: var(--cor-da-fonte);
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     gap: 0.8rem;
 }
@@ -39,6 +55,7 @@
     display: none;
     padding-top: 1.5rem;
     color: var(--cor-da-fonte);
+    text-align: justify;
 }
 
 .sobre-educacao-texto h3 {
@@ -50,10 +67,12 @@
 .sobre-educacao-texto h4 {
     font-weight: 600;
     margin-bottom: 0.2rem;
+    line-height: 1.3rem;
 }
 
 .sobre-educacao-texto p {
     margin-bottom: 1.5rem;
+    line-height: 1.3rem;
 }
 
 .sobre-aberto {
@@ -99,6 +118,7 @@
     .sobre-mim-texto-web a {
         color: var(--cor-secundaria);
         text-decoration: none;
+        cursor: pointer;
     }
 
     .sobre-educacao-texto-web h3 {

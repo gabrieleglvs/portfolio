@@ -27,7 +27,7 @@ setaSobreMimEl.addEventListener("click", () => {
     textoSobreMinEl.classList.toggle("sobre-aberto")
 })
 
-const setaEducacaoEl = document.querySelector("#educacao-seta")
+const setaEducacaoEl = document.querySelector("#sobre-educacao-seta")
 const textoSobreEducacaoEl = document.querySelector(".sobre-educacao-texto")
 
 setaEducacaoEl.addEventListener("click", () => {
