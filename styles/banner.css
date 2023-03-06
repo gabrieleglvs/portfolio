@@ -7,9 +7,11 @@
     flex-direction: column;
     padding: 7.5rem 2rem 2rem 2rem;
     align-items: center;
+    justify-content: center;
     font-size: 1.8rem;
     font-weight: 700;
     gap: 1.5rem;
+    height: 100vh
 }
 
 #banner-img {
@@ -17,8 +19,8 @@
 }
 
 .banner-img-a {
-    animation: pulse infinite;
-    animation-duration: 2s;
+    animation: pulse;
+    animation-duration: 2.5s;
     z-index: -1;
 }
 
@@ -30,17 +32,23 @@
 }
 
 .banner-titulo p {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 #subtitulo {
     color: var(--cor-secundaria);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .banner-links {
     display: flex;
     gap: 1.2rem;
+}
+
+.banner-links-a {
+    animation: pulse infinite;
+    animation-duration: 2.5s;
+    z-index: -1;
 }
 
 .banner-apresentacao-web {
