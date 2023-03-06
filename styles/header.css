@@ -10,7 +10,7 @@ html {
     z-index: 1;
     background-image: linear-gradient(
         95deg,
-        #5d3891 10%, 
+        #5d3891 10%,
         #000000
     );
 }
@@ -90,13 +90,6 @@ html {
 }
 
 @media screen and (min-width: 1440px) {
-    .cabecalho {
-        background-image: linear-gradient(
-            95deg,
-            #5d3891 10%, 
-            #000000
-        );
-    }
 
     .cabecalho-menu, .cabecalho-menu-fechado {
         display: none;
