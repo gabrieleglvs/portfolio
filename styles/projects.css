@@ -53,7 +53,8 @@
         gap: 2rem;
     }
 
-    #img-em-breve {
-        width: 52%;
+    .projects-img-web-2 {
+        display: flex;
+        width: 32%; 
     }
 }
