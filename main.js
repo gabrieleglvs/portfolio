@@ -20,17 +20,35 @@ links.forEach((a) => {
 })
 
 //Setas para baixo
+//SOBRE MIM
 const setaSobreMimEl = document.querySelector("#sobre-mim-seta")
 const textoSobreMinEl = document.querySelector(".sobre-mim-texto")
+//SOBRE EDUCAÇÃO
+const setaEducacaoEl = document.querySelector("#sobre-educacao-seta")
+const textoSobreEducacaoEl = document.querySelector(".sobre-educacao-texto")
+
+//Título ao lado das setas
+//SOBRE MIM
+const sobreMimTitleEl = document.querySelector("#sobre-mim-t")
+//SOBRE EDUCAÇÃO
+const sobreEduTitleEl = document.querySelector("#sobre-educacao-t")
 
 setaSobreMimEl.addEventListener("click", () => {
     textoSobreMinEl.classList.toggle("sobre-aberto")
 })
 
-const setaEducacaoEl = document.querySelector("#sobre-educacao-seta")
-const textoSobreEducacaoEl = document.querySelector(".sobre-educacao-texto")
+sobreMimTitleEl.addEventListener("click", () => {
+    textoSobreMinEl.classList.toggle("sobre-aberto")
+})
 
 setaEducacaoEl.addEventListener("click", () => {
     textoSobreEducacaoEl.classList.toggle("sobre-aberto")
 })
+
+sobreEduTitleEl.addEventListener("click", () => {
+    textoSobreEducacaoEl.classList.toggle("sobre-aberto")
+})
+
+
+
 
