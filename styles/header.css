@@ -8,6 +8,11 @@ html {
     position: fixed;
     width: 100vw;
     z-index: 1;
+    background-image: linear-gradient(
+        95deg,
+        #5d3891 10%, 
+        #000000
+    );
 }
 
 .cabecalho-menu {
