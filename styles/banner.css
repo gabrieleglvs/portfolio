@@ -98,11 +98,21 @@
         font-size: 4rem;
     }
 
+    .titulo-a {
+        animation: fadeIn;
+        animation-duration: 1.5s;
+    }
+
     #subtitulo {
         margin-left: 0.2rem;
         margin-top: 0.5rem;
         font-size: 3rem;
     }
+    
+    .subtitulo-a {
+        animation: fadeIn;
+        animation-duration: 2s;
+    }    
 
     #banner-img {
         width: 70%;
@@ -117,6 +127,12 @@
         display: flex;
         justify-content: center;
         gap: 3rem;
+    }
+
+    .apresentacao-links-a {
+        animation: pulse infinite;
+        animation-duration: 2s;
+        z-index: -1;
     }
 
 }
