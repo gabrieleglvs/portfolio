@@ -8,13 +8,17 @@
     background-color: var(--cor-terciaria);
 }
 
+.sobre-mim, .sobre-educacao {
+    width: 100%;
+}
+
 #sobre-mim-seta {
-    width: 10%;
+    width: 7%;
 }
 
 #sobre-educacao-seta {
-    width: 10%;
-}
+    width: 7%;
+}    
 
 .sobre-seta-a {
     animation: shakeY infinite;
@@ -28,10 +32,10 @@
     font-size: 2.5rem;
     font-weight: 700;
     gap: 0.8rem;
+    justify-content: center;
+    margin-right: 1.5rem;
 }
-.sobre-mim-titulo img {
-    width: 8%;
-}
+
 .sobre-mim-texto {
     display: none;
     padding-top: 1.5rem;    
@@ -52,10 +56,10 @@
     font-size: 2.5rem;
     font-weight: 700;
     gap: 0.8rem;
+    justify-content: center;
+    margin-right: 1.5rem;
 }
-.sobre-educacao-titulo img {
-    width: 8%;
-}
+
 .sobre-educacao-texto {
     display: none;
     padding-top: 1.5rem;
@@ -86,6 +90,27 @@
 
 .sobre-mim-web, .sobre-educacao-web {
     display: none;
+}
+
+
+@media screen and (min-width: 640px) {
+    #sobre-mim-seta {
+        width: 5%;
+    }
+
+    #sobre-educacao-seta {
+        width: 5%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #sobre-mim-seta {
+        width: 3.5%;
+    }
+
+    #sobre-educacao-seta {
+        width: 3.5%;
+    }
 }
 
 @media screen and (min-width: 1440px) {
