@@ -102,6 +102,7 @@
     .sobre-mim-web, .sobre-educacao-web {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .sobre-mim-titulo-web, .sobre-educacao-titulo-web {
