@@ -42,11 +42,11 @@
     gap: 1.2rem;
 }
 
-.banner-links-a {
+/*.banner-links-a {
     animation: pulse infinite;
     animation-duration: 2.5s;
     z-index: -1;
-}
+}*/
 
 .banner-apresentacao-web {
     display: none;
