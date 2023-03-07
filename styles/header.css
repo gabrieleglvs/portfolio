@@ -112,6 +112,7 @@ html {
         text-decoration: none;
         font-size: 1.2rem;
         font-weight: 500;
+        transition: 0.5s;
     }
 
     .nav-item-web a:hover {
