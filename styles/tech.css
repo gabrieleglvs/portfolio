@@ -6,6 +6,11 @@
     padding: 6rem 2rem 6rem 2rem;
     background-color: var(--cor-primaria);
     align-items: center;
+    background-image: linear-gradient(
+        180deg,
+        #5d3891 10%,
+        #352053
+    );
 }
 
 .tech-titulo {
