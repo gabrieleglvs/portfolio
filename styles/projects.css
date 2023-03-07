@@ -57,4 +57,12 @@
         display: flex;
         width: 32%; 
     }
+
+    .projects a {
+        transition: 0.3s;
+    }
+
+    .projects a:hover {
+        color: var(--cor-primaria);
+    }
 }
