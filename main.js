@@ -7,7 +7,6 @@ const menuAbertoDivEl = document.querySelector(".cabecalho-menu-fechado")
 const divMenuEl = document.querySelector(".menu-abrir")
 const menuEl = document.querySelector("#menu-botao")
 
-
 menuEl.addEventListener("click", () => {
     menuAbertoDivEl.classList.add("cabecalho-menu-aberto")
     divMenuEl.classList.add("fechar")
@@ -20,7 +19,7 @@ menuFechar.addEventListener("click", () => {
     divMenuFecharEl.classList.remove("abrir")
 });
 
-//Links da navegação
+//Links da navegação do menu hamburguer
 const linkHomeEl = document.querySelector("#link-home")
 const linkSobreEl = document.querySelector("#link-sobre")
 const linkTechEl = document.querySelector("#link-tech")
