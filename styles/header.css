@@ -32,6 +32,22 @@ html {
     width: 50%;
 }
 
+#menu-botao-fechar {
+    width: 50%;
+}
+
+.menu-fechar {
+    display: none;
+}
+
+.fechar {
+    display: none;
+}
+
+.abrir {
+    display: block;
+}
+
 .cabecalho-menu-fechado {
     display: none;
     height: calc(100vh - 76px);

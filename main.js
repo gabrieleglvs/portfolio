@@ -1,9 +1,23 @@
 //Menu hamburguer
-const menuEl = document.querySelector("#menu-botao")
+const divMenuFecharEl = document.querySelector(".menu-fechar")
+const menuFechar = document.querySelector("#menu-botao-fechar")
+
 const menuAbertoDivEl = document.querySelector(".cabecalho-menu-fechado")
 
+const divMenuEl = document.querySelector(".menu-abrir")
+const menuEl = document.querySelector("#menu-botao")
+
+
 menuEl.addEventListener("click", () => {
-    menuAbertoDivEl.classList.toggle("cabecalho-menu-aberto")
+    menuAbertoDivEl.classList.add("cabecalho-menu-aberto")
+    divMenuEl.classList.add("fechar")
+    divMenuFecharEl.classList.add("abrir")
+});
+
+menuFechar.addEventListener("click", () => {
+    menuAbertoDivEl.classList.remove("cabecalho-menu-aberto")
+    divMenuEl.classList.remove("fechar")
+    divMenuFecharEl.classList.remove("abrir")
 });
 
 //Links da navegação
@@ -16,6 +30,8 @@ const links = [linkHomeEl, linkSobreEl, linkTechEl, linkProjetosEl]
 links.forEach((a) => {
     a.addEventListener("click", () => {
         menuAbertoDivEl.classList.toggle("cabecalho-menu-aberto")
+        divMenuEl.classList.remove("fechar")
+        divMenuFecharEl.classList.remove("abrir")
     })
 })
 
