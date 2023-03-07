@@ -28,13 +28,9 @@
     gap: 0.5rem;
 }
 
-.banner-titulo p {
-    font-size: 0.8rem;
-}
-
 #subtitulo {
     color: var(--cor-secundaria);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .banner-links {
