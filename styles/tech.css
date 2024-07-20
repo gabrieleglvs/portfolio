@@ -20,22 +20,40 @@
     font-weight: 700;
 }
 
-.tech-icones-web {
+.tech-icones {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.tech-icones-web img {
-    width: 20%;
-}
-
-.tech-icones-linguagens, .tech-icones-ferramentas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.5rem;
+}
+
+.tech-icones img {
+    height: 3rem;
+    width: 3rem;
+
+}
+
+@media screen and (min-width: 400px) {
+    .tech-icones {
+        gap: 1.5rem;
+    }
+
+    .tech-icones img {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 570px) {
+
+    .tech-icones {
+        gap: 2.5rem;
+    }
+
+    .tech-icones img {
+        height: 5rem;
+        width: 5rem;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -48,18 +66,15 @@
         margin-bottom: 1rem;
     }
 
-    .tech-icones-web {
+    .tech-icones {
         display: flex;
         flex-direction: row;
         gap: 3.5rem;
         justify-content: center;
     }
 
-    .tech-icones-linguagens, .tech-icones-ferramentas {
-        gap: 3.5rem;
-    }
-
-    .tech-icones-linguagens img, .tech-icones-ferramentas img {
-        width: 5rem;        
+    .tech-icones img {
+        height: 4rem;
+        width: 4rem;
     }
 }
